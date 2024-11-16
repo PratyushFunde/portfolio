@@ -1,0 +1,25 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    // border: 2px dotted red;
+    min-height: 80vh;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+
+.card{
+    padding: 1rem;
+    animation: slideLeft 2s ease-out forwards;
+    border-radius: 1rem;
+    // color: rgb(215, 199, 199);
+    // border: 2px dotted white;
+    height: fit-content;
+    // background-color: rgba(128, 128, 128, 0.495);
+    border: 2px solid rgb(114, 112, 112);
+}
+
+span{
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.795);
+}

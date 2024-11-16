@@ -1,0 +1,50 @@
+.profile-section {
+    background-color: black;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    animation: slideUp 2s ease-out;
+}
+
+.profile-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #bfb9b9;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-container img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+.profile-description {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+}

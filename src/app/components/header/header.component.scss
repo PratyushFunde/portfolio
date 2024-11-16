@@ -1,0 +1,68 @@
+header {
+    margin-bottom: 1rem;
+    background-color: black;
+    box-shadow: 0 4px 6px rgba(158, 158, 158, 0.188);
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    color: white;
+    font-size: 1.25rem; /* 20px */
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 0.9375rem; /* 15px */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.9375rem; /* 8px 15px */
+    border-radius: 0.25rem; /* 4px */
+}
+
+nav a:hover {
+    background-color: rgb(79, 73, 73);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack the name and nav vertically */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .name {
+        margin-bottom: 1rem; /* Add space between name and nav */
+    }
+
+    nav {
+        width: 100%; /* Make the nav full-width */
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: flex-start; /* Align items to the left */
+        gap: 0.5rem; /* Reduce gap for mobile */
+    }
+
+    nav a {
+        font-size: 1.25rem; /* Reduce font size for mobile */
+        padding: 0.5rem 1rem; /* Adjust padding for better mobile experience */
+        width: 100%; /* Make links full-width for easier tapping */
+        text-align: left; /* Align text to the left */
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+        font-size: 1.1rem; /* Slightly reduce font size for very small screens */
+    }
+
+    nav a {
+        font-size: 1.1rem; /* Further reduce font size for smaller screens */
+    }
+}

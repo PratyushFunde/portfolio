@@ -1,0 +1,16 @@
+<div class="card-container">
+    <div class="card" *ngFor="let i of projects">
+        <h3>{{i.name}}</h3>
+        <br>
+        <hr>
+        <br>
+        <p>Description : {{i.desc}}</p>
+        <br>
+        <p class="languages">
+            Technologies : {{i.languages}}
+        </p>
+        <a href="{{i.link}}" target="_blank">View Project</a>
+    </div>
+ 
+    <!-- <p>&#8594;</p> -->
+</div>
